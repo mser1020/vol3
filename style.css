@@ -21,12 +21,14 @@ p {
 .cover .description {
     border-right: 1px solid #b0b0b0;
     padding-right: 100px;
+    padding-left: 25%;
     height: 80%;
+    display: flex;
+    align-items: center;
 }
 .cover .description h3 {
-    writing-mode: tb-rl;
+    width:30px;
     float: right;
-    height: 100%;
     margin: auto 10px;
     font-weight: 400;
 }
