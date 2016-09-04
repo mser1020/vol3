@@ -1,13 +1,11 @@
 $(document).ready(function () {
-    var px_list = [1330, 2200, 5650, 9950, 14000, 20300, 25400, 29350, 24100, 37300, 41800, 49700];
+    var px_list = [1330, 2200, 5650, 9950, 14000, 20300, 25400, 29350, 34100, 37300, 41800, 49700];
     $(window).on("scroll", function () {
         onScroll();
     });
     onScroll();
     function onScroll() {
-        console.log("???");
         var scroll_px = $(window).scrollTop();
-        // console.log(scroll_px);
         var col3_width = $(".floating_nav").width();
         if ($(window).scrollTop() > 1330) {
             $(".floating_nav").css({
