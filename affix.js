@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var px_list = [1330, 2200, 5650, 9950, 14000, 20300, 25400, 29350, 34100, 37300, 41800, 49700];
+    var px_list = [1330, 2200, 5650, 9950, 14000, 20300, 25400, 29350, 34100, 37300, 41800, 49700, 56200];
     $(window).on("scroll", function () {
         onScroll();
     });
@@ -24,7 +24,7 @@ $(document).ready(function () {
             if (scroll_px > px_list[i]) {
                 if (i === px_list.length - 1) {
                     $(".floating_nav .active").removeClass("active");
-                    $(".floating_nav a[href='#article_11']").addClass("active");
+                    $(".floating_nav a[href='#article_12']").addClass("active");
                 }
                 continue;
             }
